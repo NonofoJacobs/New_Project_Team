@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_color"
-    tools:context=".splashscreen"
+    tools:context=".Splashscreen"
     tools:ignore="ExtraText">
 
 
@@ -13,7 +13,9 @@
         android:id="@+id/imageView"
         android:layout_width="231dp"
         android:layout_height="329dp"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="201dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

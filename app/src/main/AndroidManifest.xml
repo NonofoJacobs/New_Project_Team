@@ -20,7 +20,7 @@
 <!--        </activity>-->
         </activity>
         <activity
-            android:name=".splashscreen"
+            android:name=".Splashscreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <!--            android:exported="true" />-->
             <intent-filter>
